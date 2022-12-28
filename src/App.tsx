@@ -1,5 +1,6 @@
-import { Counter } from "./bases/Counter";
-import { CounterBy } from './bases/CounterBy';
+// import { Counter } from "./bases/Counter";
+// import { CounterBy } from './bases/CounterBy';
+import { CounterEffect } from './bases/CounterEffect';
 
 
 
@@ -9,7 +10,11 @@ function App() {
     <h1>React</h1>
     <hr></hr>
     {/* <Counter initialValue={10} /> */}
-    <CounterBy initialValue={6}/>
+    {/* <CounterBy initialValue={6}/> */}
+    <CounterEffect></CounterEffect>
+    <CounterEffect></CounterEffect>
+    <CounterEffect></CounterEffect>
+    <CounterEffect></CounterEffect>
     </>      
   );
 }
